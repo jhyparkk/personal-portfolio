@@ -373,4 +373,7 @@ a:visited {
     display: none;      /* sacrifice the clock on small screens */
   }
   h1 { font-size: 18px; }
+  .desktop-icons {
+    display: none;     /* hide the desktop icons on phones */
+  }
 }
