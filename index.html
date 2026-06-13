@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal website of Joshua Park">
+        <title>Joshua Park - Personal Website</title>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <header class="topbar">
+         <span class="topbar-title">joshua park</span>
+            <span class="title-bar-buttons">
+                <button aria-label="Minimize">_</button>
+                <button aria-label="Maximize">&#9633;</button>
+                <button aria-label="Close">&#10005;</button>
+            </span>
+    </header>
+    <body>
+        <div class="desktop-icons">
+            <a class="desktop-icon" href="#about">
+                <img src="images/image.png" alt="">
+                <span>My Computer</span>
+            </a>
+            <a class="desktop-icon" href="#projects">
+                <img src="images/folderswin.png" alt="">
+                <span>Projects</span>
+            </a>
+            <a class="desktop-icon" href="#resume">
+                <img src="images/docswin.png" alt="">
+                <span>Resume</span>
+            </a>
+            <a class="desktop-icon" href="mailto:jhypark@berkeley.edu">
+                <img src="images/emailwin.png" alt="">
+                <span>Email Me</span>
+            </a>
+            <a class="desktop-icon" href="https://www.youtube.com/@funkmeisterk">
+                <img src="images/mediaplayerwin.png" alt="">
+                <span>YouTube</span>
+            </a>
+            <a class="desktop-icon" href="https://open.spotify.com/user/6dw03cy8osdoaxv5eu6dwray9?si=10f568e324a64380">
+                <img src="images/secretwin.png" alt="">
+                <span>Spotify</span>
+            </a>
+        </div>
+        <main id = "top">
+            <section class="window" id="hero" >
+                <div class="title-bar">
+                    <span class="title-bar-text">welcome.exe</span>
+                    <span class="title-bar-buttons">
+                        <button aria-label="Minimize">_</button>
+                        <button aria-label="Maximize">&#9633;</button>
+                        <button aria-label="Close">&#10005;</button>
+                    </span>
+                </div>
+                <div class="window-body hero-body">
+                    <img src="images/deathdevil.png" alt="Photo of Joshua" class = "avatar framed">
+                    <div class = "hero-info">
+                    <article class="card">
+                    <h1>Hi, I'm Joshua Park.</h1>
+                        <p>UC Berkeley &bull; B.S. Electrical Engineering &amp; Computer Sciences &bull; 2026 - 2028</p>
+                        <p>
+                            <a class = "btn" href="#experiences">Experiences</a>
+                            <a class = "btn" href="#projects">Projects</a>
+                            <a class = "btn" href="#resume">Resume</a>
+                            <a class = "btn" href="#about">About</a>
+                        </p>    
+                    </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class = "window" id="experiences">
+                <div class="title-bar">
+                    <span class="title-bar-text">experiences.exe</span>
+                    <span class="title-bar-buttons">
+                        <button aria-label="Minimize">_</button>
+                        <button aria-label="Maximize">&#9633;</button>
+                        <button aria-label="Close">&#10005;</button>
+                    </span>
+                </div>
+                <div class="window-body">
+                <h2>Experiences</h2>
+                 <article class="card">
+                    <h3>Machine Learning Research Assistant</h3>
+                    <p class="org">Won Research Lab &mdash; Irvine, CA</p>
+                    <p class="dates">Feb 2025 &ndash; May 2025</p>
+                    <p>Researched liquid-solid-vapor interactions and transport phenomena for applications in electronics cooling, energy efficiency, and water systems.</p>
+                    <p>Used MATLAB and Python to model and visualize cold plate performance data, and applied NSGA-II optimization to identify Pareto-optimal designs across competing thermal objectives. Contributed to a paper submitted to the IEEE ITherm conference.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Founder / Chief Operations Officer / Captain</h3>
+                        <p class="org">Charger Rocketry &mdash; Cypress, CA</p>
+                        <p class="dates">Feb 2025 &ndash; May 2026</p>
+                        <p>Co-founded Cypress College's first team-based collaborative engineering design project focused on the research, development, and construction of a solid-propellant rocket, built in collaboration with STEM&sup2; and MESA.</p>
+                        <p>Led day-to-day operations which included recruitment, event planning, competition proposals, and meetings. Managed cross-functional collaboration across engineering subteams for design, testing, and safety planning.</p>
+                </article>
+
+                 <article class="card">
+                    <h3>Physics &amp; Chemistry Tutor</h3>
+                        <p class="org">Cypress College Science Tutoring Center &mdash; Cypress, CA</p>
+                        <p class="dates">Aug 2025 &ndash; Jun 2026</p>
+                        <p>Provided one-on-one and drop-in tutoring across mechanics, electricity and magnetism, general chemistry, and lab-based problem solving.</p>
+                        <p>Broke down challenging STEM concepts into clear, step-by-step explanations to improve student understanding and exam readiness.</p>
+                </article>
+                </div>
+            </section>
+
+            <section class = "window" id = "projects">
+                <div class="title-bar">
+                    <span class="title-bar-text">projects.exe</span>
+                    <span class="title-bar-buttons">
+                        <button aria-label="Minimize">_</button>
+                        <button aria-label="Maximize">&#9633;</button>
+                        <button aria-label="Close">&#10005;</button>
+                    </span>
+                </div>
+                <div class="window-body">
+                <h2>Projects</h2>
+                <article class="card">
+                    <h3>Earlysignal.fm</h3>
+                    <p class="dates">Jan 2026</p>
+                    <p class="stack">Stack: PostgreSQL, Node.js</p>
+                    <p>A music-market simulation platform where users invest virtual credits in emerging artists based on growth signals such as monthly listeners, album performance, and social engagement, built around gamified music discovery combining artist analytics, prediction mechanics, and portfolio-style interaction.</p>
+                    <p>Designed a PostgreSQL schema to store artist profiles, user portfolios, virtual transactions, and time-series performance metrics for tracking artist growth over time.</p>
+                </article>
+                <article class="card">
+                    <h3>Scheme Interpreter</h3>
+                    <p class="dates">CS 61A &mdash; UC Berkeley</p>
+                    <p class="stack">Stack: Python</p>
+                    <p>Built an interpreter for a subset of the Scheme language in Python — implementing the read-eval-print loop, special forms, lexical scoping with proper environment frames, and tail-call handling.</p>
+                    <p><a href="https://github.com/jhyparkk/comsc078finalproject">GitHub</a></p>
+                </article>
+                </div>
+            </section>
+
+            <section class = "window" id="resume">
+                <div class="title-bar">
+                    <span class="title-bar-text">resume.exe</span>
+                    <span class="title-bar-buttons">
+                        <button aria-label="Minimize">_</button>
+                        <button aria-label="Maximize">&#9633;</button>
+                        <button aria-label="Close">&#10005;</button>
+                    </span>
+                </div>
+                <div class="window-body">
+                <h2>Resume</h2>
+                <article class="card">
+                <div class = "resume-row">
+                    <p>Grab a copy of my latest resume here.</p>
+                    <a class = "btn" href="documents/Joshua Park Resume.pdf" download>View Resume (PDF)</a>
+                </div>
+                </article>
+                </div>
+            </section>
+
+            <section class = "window" id="about">
+                <div class="title-bar">
+                    <span class="title-bar-text">about.exe</span>
+                    <span class="title-bar-buttons">
+                        <button aria-label="Minimize">_</button>
+                        <button aria-label="Maximize">&#9633;</button>
+                        <button aria-label="Close">&#10005;</button>
+                    </span>
+                </div>
+                <div class="window-body">
+                <h2>About</h2>
+                <article class="card">
+                <h2>Hi, I'm Joshua Park.</h2>
+                <p>I'm Joshua and I am currently a transfer student at UC Berkeley, pursuing a B.S. in Electrical Engineering and Computer Sciences. I am passionate about building efficient and innovate systems that bridge artificial intelligence, machine learning, and human insight.</p>
+                <p>My work thus far combines machine learning and computer vision with scientific computation. As a machine learning research assistant at Won Research Lab, I
+                    used Python and MATLAB to model cold plate thermal performance and applied NSGA-II multi-objective optimization to find Pareto-optimal designs, contributing to a paper submitted to the IEEE ITherm conference. More recently I've been building Earlysignal.fm, a music-market simulation
+                    where users invest virtual credits in emerging artists based on growth signals, designing the PostgreSQL schema for portfolios, transactions,
+                    and time-series artist metrics.
+                </p>
+                <p>When I'm not coding, I enjoy being outside. Whether it be skateboarding, snowboarding, playing tennis and basketball, or hiking with friends, I find that being active helps me recharge and stay motivated. I also 
+                    love going to the gym and lifting weights as I find that a healthy body leads to a healthy mind. However, I am not someone that lives outdoors. Whenever I am stuck indoor or want to take things slower, I enjoy playing the piano and coding new projects!
+                </p>
+                <p>
+                    Open to SWE / ML research roles &amp; collaborations.
+                </p>
+                <p class = "about-icons">
+                    <a href="mailto:jhypark@berkeley.edu">
+                        <img src="images/emailicon.png" alt="Email">
+                    </a> &bull;
+                    <a href="https://github.com/jhyparkk">
+                        <img src="images/githubicon.png" alt="GitHub">
+                    </a> &bull;
+                    <a href="https://www.linkedin.com/in/joshua-park-872417262/">
+                        <img src="images/linkedinicon.png" alt="LinkedIn">
+                    </a>
+                </p>
+                </article>
+                </div>
+            </section>
+        </main>
+         <nav class="taskbar">
+            <a class="btn start" href="#top">&#9873; Start</a>
+            <a class="btn task" href="#experiences">experiences.exe</a>
+            <a class="btn task" href="#projects">projects.exe</a>
+            <a class="btn task" href="#resume">resume.pdf</a>
+            <a class="btn task" href="#about">about.txt</a>
+            <span class="clock">4:20 PM</span>
+        </nav>
+    </body>
+</html>
